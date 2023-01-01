@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> C utilities for for asserting that a Node-API call returns an "ok" status.
+> C utilities for asserting that a Node-API call returns an "ok" status.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -49,7 +49,7 @@ npm install @stdlib/assert-napi-status-ok
 ## Usage
 
 ```javascript
-var headerDir = require( '@stdlib/assert-napi-equal-types' );
+var headerDir = require( '@stdlib/assert-napi-status-ok' );
 ```
 
 #### headerDir
@@ -80,7 +80,7 @@ var dir = headerDir;
 ## Examples
 
 ```javascript
-var headerDir = require( '@stdlib/assert-napi-equal-types' );
+var headerDir = require( '@stdlib/assert-napi-status-ok' );
 
 console.log( headerDir );
 // => <string>
@@ -262,7 +262,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
