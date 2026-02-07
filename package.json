@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-napi-status-ok",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "C utilities for asserting that a Node-API call returns an \"ok\" status.",
   "license": "Apache-2.0",
   "author": {
